@@ -1,5 +1,6 @@
 {
-    "DBHOST": "45.84.205.0",
+    "DBHOST": "localhost",
+    "DBHOSTLocal": "45.84.205.0",
     "DBUSER": "u609332810_task_user",
     "DBPASS": "V*T8#Z5?g",
     "DBNAME": "u609332810_Tasker",
