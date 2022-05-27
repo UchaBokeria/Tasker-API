@@ -26,19 +26,19 @@ class Tasks extends Database
     {
         
         Get();
-        return parent::GET("    SELECT  id, 
-                                        title, 
-                                        description, 
-                                        status, 
-                                        priority, 
-                                        date,
-                                        project
-                                FROM    tasks
-                                LEFT JOIN projects ON tasks.project = projects.id
+        return parent::GET("    SELECT    tasks.id, 
+                                          tasks.title, 
+                                          tasks.description, 
+                                          tasks.todo_datetime,
+                                          status.name AS status, 
+                                          projects.name AS project,
+                                          priority.name AS priority
+                                FROM      tasks
+                                LEFT JOIN projects ON tasks.project_id = projects.id
                                 LEFT JOIN priority ON tasks.priority_id = priority.id
                                 LEFT JOIN status ON tasks.status_id = status.id
-                                WHERE   user_id = :user_id
-                            ", ['user_id' => $_SESSION['user_id']]);
+                                WHERE     user_id = :user_id
+                            ", ['user_id' => $_GET['user_id']]);
 
     }
 
