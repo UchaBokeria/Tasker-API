@@ -1,0 +1,13 @@
+{
+    "MAILSMTPDEBUG": 0,
+    "MAILISHTML": true,
+    "MAILSMTPAUTH": "true",
+    "MAILUSERNAME": "wpatbilisicongress@gmail.com",
+    "MAILFORMNAME": "wpatbilisicongress@gmail.com",
+    "MAILPASSWORD": "wpatbilisi2022",
+    "MAILSMTPSECURE": "ssl",
+    "MAILPORT": "465",
+    "MAILDEBUGOUTPUT": "html",
+    "MAILHOST": "ssl://smtp.gmail.com",
+    "MAILCHARSET": "UTF-8"
+}

@@ -1,0 +1,56 @@
+{
+    "success_status": {
+        "code": "200",
+        "success": true,
+        "msg": "Success"
+    },
+    "bad_request_status": {
+        "code": "400",
+        "success": false
+    },
+    "unauthorized_status": {
+        "code": "401",
+        "success": false,
+        "msg": "You Are Not Authorized To Perform This Action"
+    },
+    "payment_required": {
+        "code": "402",
+        "success": false,
+        "msg": "You Must Pay To Perform This Action"
+    },
+    "forbidden_request": {
+        "code": "403",
+        "success": false,
+        "msg": "You are not allowed to access this resource"
+    },
+    "not_found": {
+        "code": "404",
+        "success": false,
+        "msg": "You are not trying to access invalid route"
+    },
+    "must_be_get": {
+        "code": "405",
+        "success": false,
+        "msg": "You must use GET method to perform this action"
+    },
+    "must_be_post": {
+        "code": "405",
+        "success": false,
+        "msg": "You must use POST method to perform this action"
+    },
+    "must_be_put": {
+        "code": "405",
+        "success": false,
+        "msg": "You must use PUT method to perform this action"
+    },
+    "must_be_Delete": {
+        "code": "405",
+        "success": false,
+        "msg": "You must use DELETE method to perform this action"
+    },
+    "CONFLICT": {
+        "code": "409",
+        "success": false,
+        "msg": "You are trying to perform action that is already exist"
+    }
+}
