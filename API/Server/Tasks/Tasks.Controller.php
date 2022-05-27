@@ -26,7 +26,7 @@ class Tasks extends Database
     {
         
         Get();
-        return parent::GET("    SELECT    tasks.id, 
+        die("    SELECT    tasks.id, 
                                           tasks.title, 
                                           tasks.description, 
                                           tasks.todo_datetime,
