@@ -37,8 +37,8 @@ class Tasks extends Database
                                 LEFT JOIN projects ON tasks.project_id = projects.id
                                 LEFT JOIN priority ON tasks.priority_id = priority.id
                                 LEFT JOIN status ON tasks.status_id = status.id
-                                WHERE     user_id = :user_id
-                            ", ['user_id' => $_GET['user_id']]);
+                                WHERE     user_id = '$_GET[user_id]'"
+                            );
 
     }
 
