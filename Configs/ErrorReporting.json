@@ -1,4 +1,4 @@
 {
-    "allow_error_report": false,
+    "allow_error_report": true,
     "error_reports": "E_ALL"
 }
